@@ -17,14 +17,12 @@ var articles = {
             title: 'Article Two | Still Pratishtha',
             heading: 'Article Two',
             date: '4 dec',
-            content : ` <p> Bla Bla Bla. Still not doing it. </p>`
-    },
+            content : ` <p> Bla Bla Bla. Still not doing it. </p>`},
     'article-three' : {
             title: 'Article Three | Well there is none other than Pratishtha',
             heading: 'Article Three',
             date: '30 dec',
-            content : `<p> Bla Bla Bla. Will not be able to do today I guess </p>`
-    }
+            content : `<p> Bla Bla Bla. Will not be able to do today I guess </p>`}
 };
 
 function createTemplate(data) {
