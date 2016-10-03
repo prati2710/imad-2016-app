@@ -90,7 +90,7 @@ app.get('/submit-name/:name',function(req,res) {
     
     names.push(name);
         //JSON JavaScropt Object Notation - converting jS object into stirng
-    res.send(JSQN.stringify(names));
+    res.send(JSON.stringify(names));
     res.send(names); //TODO
 });
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
