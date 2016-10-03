@@ -88,7 +88,7 @@ app.get('/submit-name/:name',function(req,res) {
     //Get the name from request
     var name = req.params.name;   //TODO
     
-    name.push(name);
+    names.push(name);
         //JSON JavaScropt Object Notation - converting jS object into stirng
     res.send(JSQN.stringify(names));
     res.send(names); //TODO
