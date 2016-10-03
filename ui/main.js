@@ -49,7 +49,10 @@ submit.onclick = function() {
         }
         //Not Done yet
     };    
+    var nameInput = document.getElementById('name' );
+    var name = nameInput.value;
     //Make the request
+    
     request.open('GET','http://prati2710.imad.hasura-app.io/submit-name?name=' + name,true);
     request.send(null); 
 
