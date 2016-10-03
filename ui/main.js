@@ -1,16 +1,12 @@
-console.log('Loaded!');
- 
-//change the text of the main text
-//var ele = document.getElementById('main-text');
-//ele.innerHTML = 'Something Fancy'; 
-
-//Image modicifcation
-var img = document.getElementById('dino');
-var marginLeft = 0;
-function moveRight () {
-    marginLeft = marginLeft + 5;
-    img.style.marginLeft = marginLeft + 'px';
-}
-img.onclick = function () {
- var interval = setInterval(moveRight,100);  
+//Counter code
+var button = document.getElementById('counter');
+button.onclick = function () {
+    //Make a request to endpoint
+    
+    //Capture the request and store in a variable
+    
+    //Render the variable in correct span
+    counter = counter + 1;
+    var span = document.getElementById('count');
+    span.innerHTML = counter.toString();
 };
